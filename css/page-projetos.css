@@ -1,0 +1,92 @@
+* {
+    max-width: 1000px;
+    margin: 0 auto;
+    text-decoration: none;
+}
+
+body {
+    background-color: black;
+    color: darkgray;
+    border: 0px solid red;
+}
+
+.logo {
+    text-align: center;
+}
+
+.menu {
+    font-size: 24px;
+    border: 0px solid blue;
+    width: 100%;
+    text-align: center;
+    display: flex;
+}
+
+.menu,
+.principal,
+.projetos,
+.contatos {
+    font-family: 'Indie Flower', cursive;
+    color: crimson;
+    background-color: #242222;
+    border-radius: 0.5rem;
+}
+
+.principal:hover {
+    opacity: 0.6;
+}
+
+.projetos:hover {
+    opacity: 0.6;
+}
+
+.contatos:hover {
+    opacity: 0.6;
+}
+
+footer {
+    margin: 20px;
+    border: 0px solid red;
+}
+
+footer div {
+    vertical-align: middle;
+    text-align: center;
+    justify-content: center;
+    display: inline-block;
+}
+
+footer,
+ul,
+a {
+    text-decoration: none;
+    color: darkgray;
+}
+
+footer .copy {
+    font-size: 10px;
+    padding-top: 100px;
+    padding-left: 130px;
+}
+
+.contact li {
+    padding: 5px;
+    text-align: left;
+}
+
+.contact li:hover {
+    opacity: 0.6;
+}
+
+@media (max-width: 700px) {
+    .tamanhoLogo {
+        width: 480px;
+        border: 0px solid rgb(63, 27, 110);
+        text-align: center;
+    }
+    footer .copy {
+        font-size: 10px;
+        padding-top: 60px;
+        padding-left: 80px;
+    }
+}

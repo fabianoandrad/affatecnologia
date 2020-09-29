@@ -1,0 +1,149 @@
+* {
+    max-width: 1000px;
+    margin: 0 auto;
+    text-decoration: none;
+}
+
+body {
+    background-color: black;
+    color: darkgray;
+    border: 0px solid red;
+}
+
+.logo {
+    text-align: center;
+}
+
+.menu {
+    font-size: 24px;
+    border: 0px solid blue;
+    width: 100%;
+    text-align: center;
+    display: flex;
+}
+
+.menu,
+.principal,
+.projetos,
+.contatos {
+    font-family: 'Indie Flower', cursive;
+    color: crimson;
+    background-color: #242222;
+    border-radius: 0.5rem;
+}
+
+.header,
+.titulo {
+    text-align: center;
+    padding: 20px;
+    color: chocolate;
+}
+
+.header,
+.texto {
+    padding: 20px;
+    font-size: 18px;
+}
+
+hr {
+    width: 97%;
+}
+
+.principal:hover {
+    opacity: 0.6;
+}
+
+.projetos:hover {
+    opacity: 0.6;
+}
+
+.contatos:hover {
+    opacity: 0.6;
+}
+
+.titleVideo {
+    text-align: center;
+    padding-top: 60px;
+}
+
+.conteudoVideos {
+    max-width: 640px;
+    max-height: 400px;
+    margin: 20px auto;
+}
+
+.video {
+    position: relative;
+    overflow: hidden;
+    padding-top: 50.25%;
+    width: 100%;
+    height: auto;
+}
+
+iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80%;
+    border: 0;
+}
+
+footer {
+    margin: 20px;
+    border: 0px solid red;
+}
+
+footer div {
+    vertical-align: middle;
+    text-align: center;
+    justify-content: center;
+    display: inline-block;
+}
+
+footer,
+ul,
+a {
+    text-decoration: none;
+    color: darkgray;
+}
+
+footer .copy {
+    font-size: 10px;
+    padding-top: 100px;
+    padding-left: 130px;
+}
+
+.contact li {
+    padding: 5px;
+    text-align: left;
+}
+
+.contact li:hover {
+    opacity: 0.6;
+}
+
+@media (max-width: 700px) {
+    .tamanhoLogo {
+        width: 480px;
+        border: 0px solid rgb(63, 27, 110);
+        text-align: center;
+    }
+    .conteudoVideos {
+        max-width: 440px;
+        max-height: 200px;
+        margin: 20px auto;
+    }
+    .video {
+        position: relative;
+        overflow: hidden;
+        padding-top: 50.25%;
+        width: 70%;
+        height: auto;
+    }
+    footer .copy {
+        font-size: 10px;
+        padding-top: 60px;
+        padding-left: 80px;
+    }
+}
