@@ -2,10 +2,20 @@
     max-width: 1000px;
     margin: 0 auto;
     text-decoration: none;
+    
 }
-
-body {
+ html{
     background-color: black;
+    
+ }
+body {
+   background-image: url(../imagens/Wallpaper.png);
+   background-size: 800px;
+   background-position: center 0;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   padding-top: 400px;
+
     color: darkgray;
     border: 0px solid red;
 }
@@ -124,11 +134,12 @@ footer .copy {
 }
 
 @media (max-width: 700px) {
-    .tamanhoLogo {
-        width: 480px;
-        border: 0px solid rgb(63, 27, 110);
-        text-align: center;
+
+    body {
+        background-size: 480px;
+        padding-top: 300px
     }
+    
     .conteudoVideos {
         max-width: 440px;
         max-height: 200px;
